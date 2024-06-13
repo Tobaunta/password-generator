@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="icon" sizes="32x32" href="images/techover.ico" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div id="header">Password Generator</div>
+        <div class="container password">
+            <div id="password">@v!1k5v3b2</div>
+            <img src="images/copy-icon.svg" id="copy" alt="copy">
+        </div>
+        <div class="container generator">
+            <div id="character-length">
+                <label for="character-length">Character Length</label>
+                <div id="slider-value">10</div>
+                <input type="range" name="character-length" id="length-slider" value="10" min="1" max="20">
+            </div>
+            <div class="checkboxes">
+                <label class="checkbox" id="uppercase-checkbox">
+                    <input type="checkbox">
+                    Include Uppercase Letters
+                </label>
+                <label class="checkbox" id="lowecase-checkbox">
+                    <input type="checkbox" checked>
+                    Include Lowercase Letters
+                </label>
+                <label class="checkbox" id="numbers-checkbox">
+                    <input type="checkbox" checked>
+                    Include Numbers
+                </label>
+                <label class="checkbox" id="symbols-checkbox">
+                    <input type="checkbox" checked>
+                    Include Symbols
+                </label>
+            </div>
+            <div id="strength-container">
+                <div>Strength</div>
+                <div id="strength">
+                    <div id="strength-value">Great</div>
+                    <div class="strength-bar" id="bar1"></div>
+                    <div class="strength-bar" id="bar2"></div>
+                    <div class="strength-bar" id="bar3"></div>
+                    <div class="strength-bar" id="bar4"></div>
+                </div>
+            </div>
+            <button id="generate">Generate</button>
+        </div>
+        <img src="images/techover-logo.png" alt="Techover Logo"/>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
