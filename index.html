@@ -25,31 +25,32 @@
                 <input type="range" name="character-length" id="length-slider" value="10" min="1" max="20">
             </div>
             <div class="checkboxes">
-                <label class="checkbox" id="uppercase-checkbox">
-                    <input type="checkbox">
+                <label class="checkbox">
+                    <input type="checkbox" id="uppercase-checkbox">
                     Include Uppercase Letters
                 </label>
-                <label class="checkbox" id="lowecase-checkbox">
-                    <input type="checkbox" checked>
+                <label class="checkbox">
+                    <input type="checkbox" id="lowercase-checkbox" checked>
                     Include Lowercase Letters
                 </label>
-                <label class="checkbox" id="numbers-checkbox">
-                    <input type="checkbox" checked>
+                <label class="checkbox">
+                    <input type="checkbox" id="numbers-checkbox" checked>
                     Include Numbers
                 </label>
-                <label class="checkbox" id="symbols-checkbox">
-                    <input type="checkbox" checked>
+                <label class="checkbox">
+                    <input type="checkbox" id="symbols-checkbox" checked>
                     Include Symbols
                 </label>
             </div>
             <div id="strength-container">
                 <div>Strength</div>
                 <div id="strength">
-                    <div id="strength-value">Great</div>
+                    <div id="strength-text">Great</div>
                     <div class="strength-bar" id="bar1"></div>
                     <div class="strength-bar" id="bar2"></div>
                     <div class="strength-bar" id="bar3"></div>
                     <div class="strength-bar" id="bar4"></div>
+                    <div class="strength-bar" id="bar5"></div>
                 </div>
             </div>
             <button id="generate">Generate</button>

@@ -146,7 +146,7 @@ input[type="checkbox"]::before {
     font-weight: 400;
 }
 
-#strength-value {
+#strength-text {
     padding-right: 1em;
 }
 
@@ -154,6 +154,10 @@ input[type="checkbox"]::before {
     height: 3em;
     width: 1em;
     background-color: #4abea0;
+}
+
+#bar5 {
+    background-color: #a638f6;
 }
 
 #generate {
