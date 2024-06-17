@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+    height: 95vh;
     gap: 1.1em;
 }
 
@@ -26,7 +26,7 @@ body {
 .container {
     display: flex;
     background-color: #2d2039;
-    width: 23vw;
+    width: 25vw;
     padding: 15px 25px;
     gap: 1.1em;
 }
@@ -167,4 +167,20 @@ input[type="checkbox"]::before {
     background-color: #a638f6;
     color: #fff;
     font-weight: 400;
+}
+
+#techover-logo {
+    max-width: 40vw;
+}
+
+@media screen and (max-width: 1070px) {
+    .container {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .container {
+        width: 80vw;
+    }
 }
