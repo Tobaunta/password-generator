@@ -1,51 +1,53 @@
-## Lösenords Generator
+[Live Demo](https://password-generator.tobaunta.torkelsson.online)
 
-![Se hur designen ska se ut via](./preview.png)
+## Password Generator
 
-**Dags för utmaning 🐺**
+![See how the design should look](./preview.png)
 
-## Vad ska du göra?
+**Time for a challenge 🐺**
 
-Din utmaning är att bygga ut denna lösenordsgeneratorapp och få den att se så lik designen som möjligt.
+## What are you going to do?
 
-Du kan använda vilka verktyg du vill för att hjälpa dig att slutföra utmaningen. Så om du har något du vill öva på, känn dig fri att prova det.
+Your challenge is to build out this password generator app and make it look as similar to the design as possible.
+
+You can use whatever tools you want to help you complete the challenge. So if you have something you want to practice, feel free to try it.
 Ex. TypeScript, React, sass 🔥
 
-**Dina användare bör kunna**:
+**Your users should be able**:
 
-- Generera ett lösenord baserat på de valda inklusionsalternativen
-- Kopiera det genererade lösenordet till datorns urklipp
-- Se en styrkebedömning för sitt genererade lösenord
-- Visa den optimala layouten för gränssnittet beroende på sin enhets skärmstorlek
-- Se hover- och fokustillstånd för alla interaktiva element på sidan
+- Generate a password based on the selected inclusion options
+- Copy the generated password to your computer's clipboard
+- See a strength assessment for your generated password
+- Show the optimal layout of the interface depending on its device's screen size
+- See hover and focus state of all interactive elements on the page
 
-## Steg-För-Steg Guide!
+## Step-By-Step Guide!
 
-1. Börja med att skapa en grundläggande HTML-sida med kortet som användaren ska kunna välja sina lösenordsinställningar.
+1. Start by creating a basic HTML page with the card that the user will be able to choose their password settings.
 
-2. En slider för att välja antalet tecken i lösenordet
+2. A slider to select the number of characters in the password
 
-3. Checkboxes för att välja vilka tecken som ska ingå i lösenordet (stora bokstäver, små bokstäver, siffror, specialtecken)
+3. Checkboxes to choose which characters should be included in the password (uppercase letters, lowercase letters, numbers, special characters)
 
-4. En "styrke-mätare" för att kunna se hur stark ditt lösenord är.
-5. En knapp för att generera lösenordet.
+4. A "strength meter" to see how strong your password is.
+5. A button to generate the password.
 
-6. Använd CSS för att styla formuläret och göra det mer användarvänligt. Använd CSS för att efterlikna layout, färger, typsnitt och padding.
+6. Use CSS to style the form and make it more user-friendly. Use CSS to mimic layout, colors, fonts, and padding.
 
-7. Skapa en funktion i JavaScript för att generera lösenordet baserat på användarens val. Använda dessa för att generera ett slumpmässigt lösenord.
+7. Create a function in JavaScript to generate the password based on the user's selection. Use these to generate a random password.
 
-8. Skapa en annan funktion i JavaScript för att kopiera det genererade lösenordet till användarens urklipp.
+8. Create another function in JavaScript to copy the generated password to the user's clipboard.
 
-9. Skapa en funktion i JavaScript för att beräkna styrkan på det genererade lösenordet. Denna funktion kan använda en algoritm som tar hänsyn till faktorer som längd och antal unika användningsval.
+9. Create a function in JavaScript to calculate the strength of the generated password. This feature may use an algorithm that takes into account factors such as length and number of unique usage choices.
 
-10. Använd JavaScript för att uppdatera gränssnittet med det genererade lösenordet och dess styrkebedömning.
+10. Use JavaScript to update the interface with the generated password and its strength assessment.
 
-11. Lägg till hover- och fokustillstånd för alla interaktiva element på sidan
+11. Add hover and focus states for all interactive elements on the page
 
-12. Testa och felsök din lösenordsgeneratorapp för att säkerställa att allt fungerar som det ska.
+12. Test and debug your password generator app to make sure everything is working as it should.
 
-## Hur lämnar du in uppgiften?
+## How do you submit the task?
 
-Släng ihop din HTML / CSS och Javscript fil i en mapp och gör det till en zip fil. Som du sedan lämnar in i denna lektionen på TSM.
+Throw together your HTML / CSS and Javscript file in a folder and make it a zip file. Which you then submit in this lesson at TSM.
 
-## Stort Lycka till :)))
+## Good luck :)))
